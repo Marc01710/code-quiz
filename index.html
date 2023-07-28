@@ -3,32 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header>
-        <div class="large-font">Code Quiz</div>
-        <button class="start-button">Start</button>
-    </header>
+    <h1>Code Quiz</h1>
+    <button id="startBtn">Start Quiz</button>
+    <div id="quizContainer" style="display: none;">
+        <p id="question"></p>
+        <input type="text" id="answer" placeholder="Your answer">
+        <button id="submitBtn">Submit Answer</button>
+        <div id="timer">Time: 20s</div>
+    </div>
+    <div id="result" style="display: none;">
+        <p>Your score: <span id="score">0</span></p>
+        <label for="initials">Enter your initials:</label>
+        <input type="text" id="initials" placeholder="Your initials">
+        <button id="saveBtn">Save</button>
+    </div>
+    <div id="scoreboard" style="display: none;">
+        <h2>Scoreboard</h2>
+        <ul id="scoreList"></ul>
+    </div>
 
-    <main>
-        <section>
-            <div class="timer">Time:</div>
-        </section>
-
-
-
-
-
-    </main>
-    
-
-
-
-
-
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
+
