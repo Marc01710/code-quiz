@@ -2,8 +2,10 @@ const quizQuestions = [
     { question: "What does JS stand for?", answer: "JavaScript" },
     { question: "What does CSS stand for?", answer: "Cascading Style Sheets" },
     { question: "What data type uses true/false", answer: "Boolean" },
-
-    // Add more questions and answers here
+    { question: "In JavaScript, what element is used to store and manipulate text, usually in multiples?", answer: "Arrays" },
+    { question: "What company providing hosting for software development and distributed version control familiar to computer programmers is known for its iconic Octocat (part cat, part octopus) logo?", answer: "GitHub" },
+    { question: "What code editor did Microsoft create", answer: "Visual Studio Code" },
+    
   ];
   
   const startBtn = document.getElementById("startBtn");
@@ -63,7 +65,7 @@ const quizQuestions = [
     if (userAnswer === correctAnswer) {
       score++;
     } else {
-      timeLeft -= 5;
+      timeLeft -= 3;
       if (timeLeft < 0) {
         timeLeft = 0;
       }
