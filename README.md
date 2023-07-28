@@ -9,8 +9,8 @@
 
 ## Installation
 ![deployed site](<./images/deployed-site.png>)
-- Link to deployed website: 
-- Link to github repository:
+- Link to deployed website: https://marc01710.github.io/code-quiz/
+- Link to github repository: https://github.com/Marc01710/code-quiz
 
 ## Usage
 
